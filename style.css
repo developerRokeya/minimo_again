@@ -1,0 +1,266 @@
+/* font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Inconsolata', monospace; */
+
+/* common css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #626262;
+}
+/* common css */
+/* header start */
+header {
+  padding: 30px;
+}
+.container {
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+.logo {
+  margin-top: 9px;
+  float: left;
+  width: 13%;
+  /* border: 1px solid; */
+}
+.logo a {
+}
+.logo a img {
+  width: 100%;
+}
+.menu {
+  float: right;
+  width: 65%;
+  /* border: 1px solid; */
+}
+.menu ul {
+  list-style: none;
+  float: right;
+}
+.menu ul li {
+  float: left;
+}
+.menu ul li a {
+  margin: 0 50px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #626262;
+  transition: 0.5s;
+}
+.menu ul li a:hover {
+  border-bottom: 1px solid #626262;
+  color: #000000;
+  transform: ;
+}
+.menu ul li:last-child a {
+  margin-right: 0;
+}
+/* header end */
+/* banner start */
+.banner {
+  padding: 0 30px;
+}
+.banner_content {
+}
+.banner_content img {
+  width: 100%;
+}
+/* banner end */
+/* perfect start */
+.getway {
+  padding: 60px 0;
+}
+.container2 {
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+  /* border: 1px solid blue; */
+}
+.g_content {
+}
+
+.p_light {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #b4ad9e;
+  text-transform: uppercase;
+}
+.p_tittle {
+  font-size: 35px;
+  font-weight: 400;
+}
+.m_tb_20_30 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.p_text {
+  /* margin: 0; */
+  line-height: 25px;
+}
+
+.m_b_45 {
+  margin-bottom: 45px;
+}
+/* perfect end */
+/* blog start */
+.blog {
+  padding: 60px 0;
+}
+.single {
+  width: 47%;
+  /* border: 1px solid; */
+  float: left;
+  padding-bottom: 50px;
+}
+.single:nth-child(even) {
+  margin-left: 6%;
+}
+.single img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.single h1 {
+  font-weight: 400;
+  font-size: 30px;
+  margin: 20px 0;
+}
+.single p:last-child {
+  /* font-family: "Ubuntu", sans-serif; */
+  font-size: 14px;
+  line-height: 1.5;
+}
+.p_font {
+  font-family: "Playfair Display", serif;
+}
+
+/* blog end */
+/* newsletter start */
+.newsletter {
+  padding: 50px 0;
+  background-color: #f0f0f0;
+}
+.container4 {
+  width: 60%;
+  margin: 0 auto;
+}
+.signup {
+  text-align: center;
+}
+.signup h1 {
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+.for_form {
+  width: 350px;
+  left: -15px;
+  right: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.for_form input {
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid black;
+  width: 280px;
+  font-size: 18px;
+  padding: 15px 64px 5px 1px;
+  outline: none;
+}
+.for_form button {
+  border: none;
+  background: transparent;
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+.for_form button img {
+  padding: 10px 0px 0 50px;
+}
+/* newsletter end */
+/* blog2 start */
+.blog2 {
+  padding: 90px 0;
+}
+/* blog2 end */
+
+.btn {
+}
+.container3 {
+  text-align: center;
+}
+.container3 button {
+  margin: 50px 0 100px 0;
+
+  padding: 25px 55px;
+  font-size: 24px;
+  border: none;
+  border: 3px solid #626262;
+  color: #b4ad9e;
+  background: transparent;
+  transition: 0.5s;
+}
+.container3 button:hover {
+  color: white;
+  background-color: #626262;
+  border: 1px solid #ffffff;
+}
+footer {
+  height: 100px;
+  background-color: #f0f0f0;
+}
+/* footer start */
+.terms {
+  margin: 25px 0;
+  float: left;
+  width: 30%;
+  /* border: 1px solid; */
+}
+.terms ul {
+  list-style: none;
+  float: left;
+}
+.terms ul li {
+  float: left;
+}
+.terms ul li a {
+  margin: 0 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #2a2a2a;
+}
+.social {
+  margin: 25px 0;
+  float: right;
+  width: 40%;
+  /* border: 1px solid; */
+}
+.social ul {
+  list-style: none;
+  float: right;
+}
+.social ul li {
+  float: left;
+}
+.social ul li span {
+  margin: 0 30px;
+}
+.social ul li a {
+  margin: 0 10px;
+
+  display: inline-block;
+  color: #2a2a2a;
+}
+.social ul li a img {
+  width: 100%;
+}
+
+/* footer end */
